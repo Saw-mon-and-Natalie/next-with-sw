@@ -1,0 +1,36 @@
+{
+  "name": "next-with-sw",
+  "version": "1.0.0",
+  "description": "A next.js app using workbox-webpack-plugin.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "build-netlify": "NODE_ENV=production npm run build && npm run export",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saw-mon-and-Natalie/next-with-sw.git"
+  },
+  "keywords": [
+    "next.js",
+    "webpack",
+    "workbox",
+    "react",
+    "react-dom"
+  ],
+  "author": "Saw-mon & Natalie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saw-mon-and-Natalie/next-with-sw/issues"
+  },
+  "homepage": "https://github.com/Saw-mon-and-Natalie/next-with-sw#readme",
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
